@@ -60,12 +60,12 @@ export function Contact({ site }: ContactProps) {
         <div className="contact__intro" data-reveal>
           <img className="contact__logo" src="/logo.webp" alt={`Lambang ${site.name}`} width="150" height="137" loading="lazy" />
           <div>
-            <p className="eyebrow">Kunjungi Kami</p>
+            <p className="eyebrow">Pintu Terbuka</p>
             <h2 id="kontak-title" className="section-title">
-              Kami Menantikan Kehadiran Anda
+              Sugeng Rawuh ing GKJW Karangpilang
             </h2>
             <p className="contact__lead">
-              Kami menyambut setiap orang untuk bertumbuh dan bersekutu bersama di {site.name}.
+              Baik Anda yang baru pertama kali beribadah, jemaat yang membutuhkan perkunjungan pastoral, maupun ingin bersilaturahmi, majelis jemaat siap menyambut Anda dengan sukacita.
             </p>
             <a className="btn btn--gold" href={directionsUrl(site.mapsQuery)} target="_blank" rel="noopener noreferrer">
               <Navigation size={18} aria-hidden="true" />

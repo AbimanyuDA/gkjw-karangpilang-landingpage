@@ -1,43 +1,43 @@
 [
   {
     "id": "anak-remaja",
-    "name": "Anak & Remaja",
-    "description": "Pendampingan iman generasi muda lewat sekolah Minggu dan katekisasi.",
+    "name": "Anak & Remaja (KPAR)",
+    "description": "Menemani anak-anak bertumbuh lewat Sekolah Minggu ceria, puji-pujian, dan kelas katekisasi remaja.",
     "image": "/images/pelayanan/anak-remaja.webp",
     "icon": "child"
   },
   {
     "id": "pemuda",
-    "name": "Pemuda",
-    "description": "Ruang bertumbuh, bersekutu, dan melayani bersama.",
+    "name": "Komisi Pemuda (KP)",
+    "description": "Ruang anak muda Karangpilang belajar firman, berkreasi musik, dan saling mendukung di masa studi maupun kerja.",
     "image": "/images/pelayanan/pemuda.webp",
     "icon": "youth"
   },
   {
     "id": "keluarga",
-    "name": "Keluarga",
-    "description": "Pelayanan keluarga dan warga jemaat di setiap kelompok.",
+    "name": "Persekutuan Warga & Keluarga",
+    "description": "Menganyam kerukunan jemaat dari keluarga muda hingga lansia lewat perkunjungan doa dan persekutuan bapa-ibu.",
     "image": "/images/pelayanan/keluarga.webp",
     "icon": "family"
   },
   {
     "id": "musik-multimedia",
-    "name": "Musik & Multimedia",
-    "description": "Mendukung pelayanan ibadah dan media digital gereja.",
+    "name": "Musik, Pujian & Multimedia",
+    "description": "Mengiringi kebaktian dengan perpaduan musik modern, angklung daerah, tata suara, dan warta digital.",
     "image": "/images/pelayanan/musik.webp",
     "icon": "music"
   },
   {
     "id": "diakonia",
-    "name": "Diakonia",
-    "description": "Pelayanan kasih bagi jemaat dan masyarakat yang membutuhkan.",
+    "name": "Diakonia & Aksi Kasih",
+    "description": "Menyalurkan tali asih, bantuan beras, santunan duka, serta dukungan bagi warga dan tetangga sekitar yang membutuhkan.",
     "image": "/images/pelayanan/diakonia.webp",
     "icon": "heart"
   },
   {
     "id": "kesaksian-pelayanan",
-    "name": "Kesaksian & Pelayanan",
-    "description": "Pelayanan keluar dan pemberitaan Injil di tengah masyarakat.",
+    "name": "Kesaksian & Hubungan Warga",
+    "description": "Menjaga kerukunan antarumat beragama di Karangpilang dan hadir aktif dalam kegiatan sosial kemasyarakatan.",
     "image": "/images/pelayanan/kesaksian.webp",
     "icon": "people"
   }

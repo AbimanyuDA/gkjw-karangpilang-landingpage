@@ -1,4 +1,4 @@
-import { ArrowRight, Check } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import type { CSSProperties } from 'react'
 import type { SiteInfo } from '../../types/content'
 import './about.css'
@@ -12,24 +12,36 @@ export function About({ site }: AboutProps) {
     <section id="tentang" className="section section--paper" aria-labelledby="tentang-title">
       <div className="container about">
         <div className="about__text" data-reveal>
-          <p className="eyebrow">Selamat Datang</p>
+          <p className="eyebrow">Mengenal Jemaat</p>
           <h2 id="tentang-title" className="section-title">
             {site.name}
           </h2>
           <p className="about__full-name">{site.fullName}</p>
+
+          <div className="about__motto" aria-hidden="true">
+            <span className="about__motto-quote">“Patembayan Kang Nyawiji”</span>
+            <span className="about__motto-desc">Guyub rukun ndherek Gusti ing Karangpilang</span>
+          </div>
+
           <p className="section-lead">{site.about}</p>
           <ul role="list" className="about__points">
             {site.aboutPoints.map((point) => (
               <li key={point}>
-                <Check size={18} aria-hidden="true" />
-                {point}
+                <span className="about__point-bullet" aria-hidden="true">◆</span>
+                <span>{point}</span>
               </li>
             ))}
           </ul>
-          <a className="btn btn--outline" href="#kontak">
-            Kunjungi Kami
-            <ArrowRight size={18} aria-hidden="true" />
-          </a>
+
+          <div className="about__action-group">
+            <a className="btn btn--outline" href="#kontak">
+              Kunjungi Kami
+              <ArrowRight size={18} aria-hidden="true" />
+            </a>
+            <a className="about__link-sub" href="#jadwal">
+              Lihat jadwal ibadah terdekat →
+            </a>
+          </div>
         </div>
 
         <div className="about__mosaic" data-reveal style={{ '--reveal-index': 1 } as CSSProperties}>

@@ -4,23 +4,23 @@
     "title": "Ibadah Minggu",
     "day": "Minggu",
     "times": ["07.00", "09.00", "17.00"],
-    "note": "Ibadah umum untuk seluruh jemaat",
+    "note": "Pagi: 07.00 (Bhs. Jawa) & 09.00 (Bhs. Indonesia + Sekolah Minggu). Sore: 17.00 WIB.",
     "icon": "church"
   },
   {
     "id": "ibadah-keluarga",
     "title": "Ibadah Keluarga",
     "day": "Rabu",
-    "times": ["18.00"],
-    "note": "Bergilir di rumah warga per kelompok",
+    "times": ["18.30"],
+    "note": "Persekutuan doa patembayan di rumah warga secara bergilir per kelompok (kringen).",
     "icon": "family"
   },
   {
     "id": "ibadah-pemuda",
-    "title": "Ibadah Pemuda",
+    "title": "Persekutuan Pemuda",
     "day": "Sabtu",
     "times": ["18.00"],
-    "note": "Persekutuan pemuda dan remaja",
+    "note": "Wadah kebersamaan, perenungan firman, dan latihan musik bagi pemuda-remaja.",
     "icon": "youth"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Ibadah Perjamuan Kudus",
     "day": "Minggu tertentu",
     "times": [],
-    "note": "Jika dijadwalkan — lihat warta jemaat",
+    "note": "Dilayani berkala pada hari raya gerejawi (Jumat Agung, Undhuh-Undhuh, dll).",
     "icon": "bible"
   }
 ]

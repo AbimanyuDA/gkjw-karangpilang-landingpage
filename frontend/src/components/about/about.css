@@ -13,26 +13,68 @@
   font-size: var(--text-lg);
 }
 
+.about__motto {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: var(--space-xs) 0 var(--space-sm);
+  padding: 0.5rem 0.9rem;
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-chip);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.about__motto-quote {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.about__motto-desc {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
 .about__points {
   display: grid;
-  gap: 0.65rem;
+  gap: 0.75rem;
   margin: var(--space-md) 0 var(--space-lg);
 }
 
 .about__points li {
   display: flex;
   align-items: flex-start;
-  gap: 0.65rem;
+  gap: 0.75rem;
   font-weight: 500;
+  line-height: 1.5;
 }
 
-.about__points svg {
+.about__point-bullet {
   flex-shrink: 0;
   margin-top: 0.2rem;
-  padding: 2px;
-  border-radius: 50%;
-  background: var(--gold-500);
-  color: #fff;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+}
+
+.about__action-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.about__link-sub {
+  color: var(--color-accent-text);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color var(--duration-fast) ease;
+}
+
+.about__link-sub:hover {
+  color: var(--color-heading);
 }
 
 .about__mosaic {

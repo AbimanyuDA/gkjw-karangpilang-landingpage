@@ -1,4 +1,4 @@
-import { Clock } from 'lucide-react'
+import { Clock, HeartHandshake } from 'lucide-react'
 import type { CSSProperties } from 'react'
 import type { Schedule as ScheduleItem } from '../../types/content'
 import { Icon } from '../ui/Icon'
@@ -49,6 +49,20 @@ export function Schedule({ schedules }: ScheduleProps) {
             </li>
           ))}
         </ul>
+
+        <div className="schedule-visitor" data-reveal style={{ '--reveal-index': 4 } as CSSProperties}>
+          <div className="schedule-visitor__icon" aria-hidden="true">
+            <HeartHandshake size={28} />
+          </div>
+          <div className="schedule-visitor__content">
+            <h4 className="schedule-visitor__title">Baru Pertama Kali Hadir di GKJW Karangpilang?</h4>
+            <p className="schedule-visitor__text">
+              Kami menyambut Anda dengan sukacita dan kehangatan. Anda dipersilakan mengenakan busana yang rapi, sopan, dan nyaman.
+              Bila Anda membutuhkan panduan tata kebaktian, Alkitab, atau kidung pujian, majelis penyambut jemaat di pintu utama
+              dengan senang hati siap mendampingi Anda dan keluarga.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )

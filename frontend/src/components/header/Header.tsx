@@ -36,7 +36,7 @@ export function Header({ name }: HeaderProps) {
   return (
     <header className={`site-header${scrolled || open ? ' is-solid' : ''}`}>
       <div className="container site-header__inner">
-        <a className="brand" href="#beranda" aria-label={`${name} — kembali ke atas`}>
+        <a className="brand" href="#beranda" aria-label={`${name}, kembali ke atas`}>
           <img src="/logo.webp" alt="" width="46" height="42" />
           <span className="brand__text">
             <span>{first}</span>

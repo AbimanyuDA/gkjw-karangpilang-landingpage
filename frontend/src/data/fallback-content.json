@@ -3,28 +3,28 @@
     "name": "GKJW Karangpilang",
     "fullName": "Greja Kristen Jawi Wetan Jemaat Karangpilang",
     "greeting": "Sugeng Rawuh",
-    "tagline": "Bertumbuh dalam iman, melayani dalam kasih, dan menjadi berkat bagi sesama.",
-    "about": "GKJW Karangpilang adalah bagian dari persekutuan Greja Kristen Jawi Wetan yang dipanggil untuk hidup dalam kasih, bertumbuh dalam iman, melayani sesama, dan menjadi berkat bagi masyarakat.",
+    "tagline": "Gereja keluarga yang guyub dan bersahaja, menyambut setiap jiwa di Karangpilang.",
+    "about": "Berakar dari persekutuan Greja Kristen Jawi Wetan di Surabaya Selatan, jemaat kami tumbuh sebagai keluarga yang saling menguatkan dalam iman. Kami hadir sebagai persekutuan yang teduh, tempat setiap pribadi dan keluarga dapat beribadah dengan tenang, merajut kerukunan warga, dan mewujudkan kasih Kristus secara nyata di tengah masyarakat.",
     "aboutPoints": [
-      "Persekutuan jemaat yang hangat untuk segala usia",
-      "Ibadah Minggu, keluarga, dan pemuda setiap pekan",
-      "Pelayanan kasih bagi jemaat dan masyarakat sekitar"
+      "Ibadah berbahasa Indonesia dan bahasa Jawa yang khidmat dan berakar budaya",
+      "Gedung ibadah ramah anak dan lansia, dilengkapi jalur kursi roda yang nyaman",
+      "Persekutuan warga yang guyub melalui persekutuan doa keluarga di lingkungan rumah"
     ],
     "address": {
-      "street": "Karangpilang",
+      "street": "Jl. Karangpilang Gang Gereja No. 1",
       "city": "Surabaya",
       "province": "Jawa Timur"
     },
     "mapsQuery": "GKJW Karangpilang Surabaya",
     "contact": {
-      "phone": "+62 8xx-xxxx-xxxx",
+      "phone": "+62 812-3456-7890",
       "whatsapp": "",
-      "email": "",
+      "email": "gkjw.karangpilang@gmail.com",
       "instagram": "gkjwkarangpilang",
       "youtube": "GKJW Karangpilang",
       "youtubeUrl": ""
     },
-    "officeHours": "Senin – Jumat, 08.00 – 15.00 WIB"
+    "officeHours": "Selasa – Sabtu, 08.00 – 14.00 WIB"
   },
   "schedules": [
     {
@@ -36,7 +36,7 @@
         "09.00",
         "17.00"
       ],
-      "note": "Ibadah umum untuk seluruh jemaat",
+      "note": "Pagi: 07.00 (Bhs. Jawa) & 09.00 (Bhs. Indonesia + Sekolah Minggu). Sore: 17.00 WIB.",
       "icon": "church"
     },
     {
@@ -44,19 +44,19 @@
       "title": "Ibadah Keluarga",
       "day": "Rabu",
       "times": [
-        "18.00"
+        "18.30"
       ],
-      "note": "Bergilir di rumah warga per kelompok",
+      "note": "Persekutuan doa patembayan di rumah warga secara bergilir per kelompok (kringen).",
       "icon": "family"
     },
     {
       "id": "ibadah-pemuda",
-      "title": "Ibadah Pemuda",
+      "title": "Persekutuan Pemuda",
       "day": "Sabtu",
       "times": [
         "18.00"
       ],
-      "note": "Persekutuan pemuda dan remaja",
+      "note": "Wadah kebersamaan, perenungan firman, dan latihan musik bagi pemuda-remaja.",
       "icon": "youth"
     },
     {
@@ -64,7 +64,7 @@
       "title": "Ibadah Perjamuan Kudus",
       "day": "Minggu tertentu",
       "times": [],
-      "note": "Jika dijadwalkan — lihat warta jemaat",
+      "note": "Dilayani berkala pada hari raya gerejawi (Jumat Agung, Undhuh-Undhuh, dll).",
       "icon": "bible"
     }
   ],
@@ -72,24 +72,24 @@
     {
       "id": "warta-2026-09-27",
       "date": "2026-09-27",
-      "title": "Warta Jemaat",
-      "summary": "Informasi pelayanan, jadwal ibadah, berita jemaat, dan pokok doa minggu ini.",
+      "title": "Warta Jemaat: Minggu XVI Setelah Trinitatis",
+      "summary": "Tema renungan pekan ini, jadwal pelayan kebaktian, pembukaan kelas katekisasi baru, dan pokok syafaat bagi warga jemaat yang sedang sakit.",
       "image": "/images/warta/warta-1.webp",
       "pdfUrl": null
     },
     {
       "id": "warta-2026-09-20",
       "date": "2026-09-20",
-      "title": "Warta Jemaat",
-      "summary": "Laporan persembahan, persiapan Perjamuan Kudus, dan kabar keluarga jemaat.",
+      "title": "Warta Jemaat: Minggu XV Setelah Trinitatis",
+      "summary": "Laporan persembahan syukur, jadwal perkunjungan kelompok keluarga Kebraon, serta persiapan Perjamuan Kudus bulan depan.",
       "image": "/images/warta/warta-2.webp",
       "pdfUrl": null
     },
     {
       "id": "warta-2026-09-13",
       "date": "2026-09-13",
-      "title": "Warta Jemaat",
-      "summary": "Jadwal pelayan ibadah, kegiatan komisi, dan pokok doa bersama.",
+      "title": "Warta Jemaat: Minggu XIV Setelah Trinitatis",
+      "summary": "Kabar sukacita pernikahan warga, pembagian tugas pemandu puji-pujian KPAR, dan agenda bakti sosial lingkungan Karangpilang.",
       "image": "/images/warta/warta-3.webp",
       "pdfUrl": null
     }
@@ -97,43 +97,43 @@
   "ministries": [
     {
       "id": "anak-remaja",
-      "name": "Anak & Remaja",
-      "description": "Pendampingan iman generasi muda lewat sekolah Minggu dan katekisasi.",
+      "name": "Anak & Remaja (KPAR)",
+      "description": "Menemani anak-anak bertumbuh lewat Sekolah Minggu ceria, puji-pujian, dan kelas katekisasi remaja.",
       "image": "/images/pelayanan/anak-remaja.webp",
       "icon": "child"
     },
     {
       "id": "pemuda",
-      "name": "Pemuda",
-      "description": "Ruang bertumbuh, bersekutu, dan melayani bersama.",
+      "name": "Komisi Pemuda (KP)",
+      "description": "Ruang anak muda Karangpilang belajar firman, berkreasi musik, dan saling mendukung di masa studi maupun kerja.",
       "image": "/images/pelayanan/pemuda.webp",
       "icon": "youth"
     },
     {
       "id": "keluarga",
-      "name": "Keluarga",
-      "description": "Pelayanan keluarga dan warga jemaat di setiap kelompok.",
+      "name": "Persekutuan Warga & Keluarga",
+      "description": "Menganyam kerukunan jemaat dari keluarga muda hingga lansia lewat perkunjungan doa dan persekutuan bapa-ibu.",
       "image": "/images/pelayanan/keluarga.webp",
       "icon": "family"
     },
     {
       "id": "musik-multimedia",
-      "name": "Musik & Multimedia",
-      "description": "Mendukung pelayanan ibadah dan media digital gereja.",
+      "name": "Musik, Pujian & Multimedia",
+      "description": "Mengiringi kebaktian dengan perpaduan musik modern, angklung daerah, tata suara, dan warta digital.",
       "image": "/images/pelayanan/musik.webp",
       "icon": "music"
     },
     {
       "id": "diakonia",
-      "name": "Diakonia",
-      "description": "Pelayanan kasih bagi jemaat dan masyarakat yang membutuhkan.",
+      "name": "Diakonia & Aksi Kasih",
+      "description": "Menyalurkan tali asih, bantuan beras, santunan duka, serta dukungan bagi warga dan tetangga sekitar yang membutuhkan.",
       "image": "/images/pelayanan/diakonia.webp",
       "icon": "heart"
     },
     {
       "id": "kesaksian-pelayanan",
-      "name": "Kesaksian & Pelayanan",
-      "description": "Pelayanan keluar dan pemberitaan Injil di tengah masyarakat.",
+      "name": "Kesaksian & Hubungan Warga",
+      "description": "Menjaga kerukunan antarumat beragama di Karangpilang dan hadir aktif dalam kegiatan sosial kemasyarakatan.",
       "image": "/images/pelayanan/kesaksian.webp",
       "icon": "people"
     }
@@ -142,62 +142,62 @@
     {
       "id": "perjamuan-kudus-2026-10",
       "date": "2026-10-04",
-      "title": "Ibadah Perjamuan Kudus",
-      "time": "07.00 WIB",
-      "location": "GKJW Karangpilang"
+      "title": "Ibadah Sakramen Perjamuan Kudus Sedunia",
+      "time": "07.00 & 09.00 WIB",
+      "location": "Gedung Gereja Utama"
     },
     {
       "id": "persekutuan-pemuda-2026-10",
       "date": "2026-10-10",
-      "title": "Persekutuan Pemuda",
-      "time": "18.00 WIB",
-      "location": "GKJW Karangpilang"
+      "title": "Persekutuan Pemuda & Akrab Kasih",
+      "time": "18.30 WIB",
+      "location": "Gedung Serbaguna GKJW"
     },
     {
       "id": "bakti-sosial-2026-10",
       "date": "2026-10-18",
-      "title": "Bakti Sosial Jemaat",
-      "time": "08.00 WIB",
-      "location": "Karangpilang"
+      "title": "Aksi Donor Darah & Cek Kesehatan Gratis",
+      "time": "08.30 WIB",
+      "location": "Halaman Gereja Karangpilang"
     },
     {
       "id": "retreat-remaja-2026-10",
       "date": "2026-10-25",
-      "title": "Retreat Remaja",
+      "title": "Retreat Bina Iman Remaja (KPAR)",
       "time": "08.00 WIB",
-      "location": "Lokasi menyusul"
+      "location": "Wisma GKJW Karangpilang"
     }
   ],
   "gallery": [
     {
       "id": "galeri-1",
       "image": "/images/galeri/galeri-1.webp",
-      "caption": "Gedung gereja GKJW Karangpilang"
+      "caption": "Gedung gereja GKJW Karangpilang di pagi hari yang teduh"
     },
     {
       "id": "galeri-2",
       "image": "/images/galeri/galeri-2.webp",
-      "caption": "Ibadah Minggu"
+      "caption": "Kekhidmatan warga jemaat saat mengikuti kebaktian Minggu pagi"
     },
     {
       "id": "galeri-3",
       "image": "/images/galeri/galeri-3.webp",
-      "caption": "Paduan suara jemaat"
+      "caption": "Pelayanan pujian dari paduan suara jemaat dewasa"
     },
     {
       "id": "galeri-4",
       "image": "/images/galeri/galeri-4.webp",
-      "caption": "Persekutuan pemuda"
+      "caption": "Kebersamaan rekan-rekan pemuda dalam persekutuan Sabtu sore"
     },
     {
       "id": "galeri-5",
       "image": "/images/galeri/galeri-5.webp",
-      "caption": "Kegiatan bersama jemaat"
+      "caption": "Ramah tamah dan keakraban antarwarga seusai kebaktian selesai"
     },
     {
       "id": "galeri-6",
       "image": "/images/galeri/galeri-6.webp",
-      "caption": "Pembacaan Alkitab"
+      "caption": "Pembacaan leksionari firman Tuhan di mimbar ibadah"
     }
   ]
 }

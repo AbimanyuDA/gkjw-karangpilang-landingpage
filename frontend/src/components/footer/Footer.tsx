@@ -68,9 +68,9 @@ export function Footer({ site }: FooterProps) {
 
       <div className="container site-footer__bottom">
         <p>
-          © {year} {site.name}. Seluruh hak cipta dilindungi.
+          © {year} {site.name} · {site.fullName}
         </p>
-        <p>{site.fullName}</p>
+        <p>Melayani dalam kasih dan kerukunan di Karangpilang, Surabaya.</p>
       </div>
     </footer>
   )

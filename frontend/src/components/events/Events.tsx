@@ -19,7 +19,7 @@ export function Events({ events }: EventsProps) {
           id="kegiatan-title"
           eyebrow="Agenda Terdekat"
           title="Kegiatan Mendatang"
-          lead="Catat tanggalnya dan ajak keluarga serta sahabat untuk ikut ambil bagian."
+          lead="Mari berkumpul dan merajut kebersamaan dalam agenda persekutuan dan kegiatan jemaat mendatang."
         />
 
         {upcoming.length === 0 ? (

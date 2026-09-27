@@ -19,11 +19,11 @@ export function Hero({ site, schedules }: HeroProps) {
       <img
         className="hero__image"
         src="/images/hero/gereja.webp"
-        srcSet="/images/hero/gereja-828.webp 828w, /images/hero/gereja.webp 1672w"
+        srcSet="/images/hero/gereja-828.webp 828w, /images/hero/gereja.webp 1024w"
         sizes="100vw"
-        alt=""
-        width="1672"
-        height="941"
+        alt="Gedung gereja GKJW Karangpilang"
+        width="1024"
+        height="576"
         fetchPriority="high"
         loading="eager"
       />
@@ -42,7 +42,7 @@ export function Hero({ site, schedules }: HeroProps) {
             <ArrowRight size={18} aria-hidden="true" />
           </a>
           <a className="btn btn--ghost-chrome" href="#tentang">
-            Tentang Jemaat
+            Mengenal Jemaat
           </a>
         </div>
       </div>

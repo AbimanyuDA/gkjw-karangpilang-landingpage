@@ -16,7 +16,7 @@ export function Ministries({ ministries }: MinistriesProps) {
           id="pelayanan-title"
           eyebrow="Pelayanan Gereja"
           title="Bersama Melayani"
-          lead="Setiap warga jemaat dipanggil untuk melayani. Temukan wadah pelayanan yang sesuai dengan panggilan dan karunia Anda."
+          lead="Melayani bukan sekadar tugas organisasi, melainkan wujud syukur dan kepedulian bersama. Mari berjalan beriringan dan bertumbuh dalam wadah komisi pelayanan jemaat."
           action={{ label: 'Tanya tentang pelayanan', href: '#kontak' }}
         />
 

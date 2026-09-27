@@ -45,7 +45,12 @@ export function Gallery({ items }: GalleryProps) {
   return (
     <section id="galeri" className="section section--tight-top" aria-labelledby="galeri-title">
       <div className="container">
-        <SectionHeading id="galeri-title" eyebrow="Galeri" title="Kehidupan Jemaat Kami" />
+        <SectionHeading
+          id="galeri-title"
+          eyebrow="Galeri Foto"
+          title="Potret Kebersamaan Jemaat"
+          lead="Momen-momen sukacita, kekhidmatan ibadah, dan pelayanan kasih di tengah warga jemaat."
+        />
       </div>
 
       <ul role="list" className="gallery-strip">
