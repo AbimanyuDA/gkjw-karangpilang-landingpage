@@ -3,32 +3,48 @@
     "id": "ibadah-minggu",
     "title": "Ibadah Minggu",
     "day": "Minggu",
-    "times": ["07.00", "09.00", "17.00"],
-    "note": "Pagi: 07.00 (Bhs. Jawa) & 09.00 (Bhs. Indonesia + Sekolah Minggu). Sore: 17.00 WIB.",
+    "times": ["07.00", "17.00"],
+    "note": "Berbahasa Indonesia. Khusus Minggu ke-2 setiap bulan, ibadah pukul 07.00 berbahasa Jawa.",
     "icon": "church"
   },
   {
     "id": "ibadah-keluarga",
     "title": "Ibadah Keluarga",
-    "day": "Rabu",
-    "times": ["18.30"],
+    "day": "Selasa & Kamis",
+    "times": ["19.00"],
     "note": "Persekutuan doa patembayan di rumah warga secara bergilir per kelompok (kringen).",
     "icon": "family"
   },
   {
-    "id": "ibadah-pemuda",
-    "title": "Persekutuan Pemuda",
-    "day": "Sabtu",
-    "times": ["18.00"],
-    "note": "Wadah kebersamaan, perenungan firman, dan latihan musik bagi pemuda-remaja.",
+    "id": "ibadah-kpar",
+    "title": "Ibadah KPAR",
+    "day": "Minggu",
+    "times": ["07.00"],
+    "note": "Pembinaan anak dan remaja (Balita, Pratama, Madya, Remaja) serentak pukul 07.00 WIB.",
+    "icon": "child"
+  },
+  {
+    "id": "ibadah-kppm",
+    "title": "Ibadah KPPM",
+    "day": "Minggu (Tentatif)",
+    "times": ["10.00"],
+    "note": "Komisi Pembinaan Pemuda dan Mahasiswa.",
     "icon": "youth"
   },
   {
-    "id": "perjamuan-kudus",
-    "title": "Ibadah Perjamuan Kudus",
-    "day": "Minggu tertentu",
-    "times": [],
-    "note": "Dilayani berkala pada hari raya gerejawi (Jumat Agung, Undhuh-Undhuh, dll).",
-    "icon": "bible"
+    "id": "ibadah-kpay",
+    "title": "Ibadah KPAY",
+    "day": "Minggu (Tentatif)",
+    "times": ["10.00"],
+    "note": "Komisi Pembinaan Adi Yuswa (Lansia).",
+    "icon": "heart"
+  },
+  {
+    "id": "ibadah-kppw",
+    "title": "Ibadah KPPW",
+    "day": "Minggu (Tentatif)",
+    "times": ["10.00"],
+    "note": "Komisi Pembinaan Peranan Wanita.",
+    "icon": "people"
   }
 ]

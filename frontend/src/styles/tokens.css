@@ -48,7 +48,7 @@
   --chrome-panel-bg: var(--ivory-50);
   --chrome-logo-shadow: drop-shadow(0 2px 5px rgb(11 31 58 / 0.18));
   --hero-bg: var(--ivory-100);
-  --hero-title-accent: linear-gradient(180deg, #b07b22 0%, #7a5718 100%);
+  --hero-title-accent: #a0721c;
   --hero-title-shadow: none;
   --hero-scrim:
     linear-gradient(90deg, rgb(253 250 243 / 0.97) 0%, rgb(253 250 243 / 0.92) 40%, rgb(253 250 243 / 0.72) 55%, rgb(253 250 243 / 0.2) 70%, rgb(253 250 243 / 0) 84%),
@@ -65,7 +65,7 @@
     radial-gradient(ellipse at 15% 40%, rgb(217 162 58 / 0.16), transparent 55%),
     linear-gradient(90deg, var(--ivory-200) 20%, rgb(239 229 207 / 0.82) 60%, rgb(239 229 207 / 0.92));
 
-  --font-display: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   --text-xs: 0.75rem;
@@ -74,7 +74,7 @@
   --text-lg: clamp(1.075rem, 1rem + 0.35vw, 1.25rem);
   --text-h3: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
   --text-h2: clamp(1.9rem, 1.4rem + 2vw, 2.85rem);
-  --text-hero: clamp(2.9rem, 1.6rem + 5.6vw, 6rem);
+  --text-hero: clamp(2.35rem, 1.4rem + 5vw, 5.75rem);
 
   --space-2xs: 0.375rem;
   --space-xs: 0.625rem;
@@ -145,7 +145,7 @@
   --chrome-panel-bg: var(--navy-950);
   --chrome-logo-shadow: drop-shadow(0 2px 6px rgb(0 0 0 / 0.35));
   --hero-bg: var(--navy-950);
-  --hero-title-accent: linear-gradient(180deg, var(--gold-300) 10%, var(--gold-500) 90%);
+  --hero-title-accent: var(--gold-300);
   --hero-title-shadow: 0 4px 30px rgb(0 0 0 / 0.35);
   --hero-scrim:
     linear-gradient(90deg, rgb(6 20 42 / 0.94) 0%, rgb(6 20 42 / 0.78) 38%, rgb(6 20 42 / 0.2) 72%, rgb(6 20 42 / 0.05) 100%),

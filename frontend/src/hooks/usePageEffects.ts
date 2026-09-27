@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
  */
 export function useScrollReveal(trigger?: unknown): void {
   useEffect(() => {
-    const elements = document.querySelectorAll<HTMLElement>('[data-reveal]:not(.is-visible)')
+    const elements = document.querySelectorAll<HTMLElement>('[data-reveal]')
     if (!('IntersectionObserver' in window)) {
       elements.forEach((el) => el.classList.add('is-visible'))
       return
@@ -15,12 +15,14 @@ export function useScrollReveal(trigger?: unknown): void {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (!entry.isIntersecting) return
-          entry.target.classList.add('is-visible')
-          observer.unobserve(entry.target)
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible')
+          } else {
+            entry.target.classList.remove('is-visible')
+          }
         })
       },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.12 },
+      { rootMargin: '0px 0px -6% 0px', threshold: 0.08 },
     )
     elements.forEach((el) => observer.observe(el))
     return () => observer.disconnect()

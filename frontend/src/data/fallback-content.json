@@ -2,7 +2,7 @@
   "site": {
     "name": "GKJW Karangpilang",
     "fullName": "Greja Kristen Jawi Wetan Jemaat Karangpilang",
-    "greeting": "Sugeng Rawuh",
+    "greeting": "Sugeng Rawuh ing",
     "tagline": "Gereja keluarga yang guyub dan bersahaja, menyambut setiap jiwa di Karangpilang.",
     "about": "Berakar dari persekutuan Greja Kristen Jawi Wetan di Surabaya Selatan, jemaat kami tumbuh sebagai keluarga yang saling menguatkan dalam iman. Kami hadir sebagai persekutuan yang teduh, tempat setiap pribadi dan keluarga dapat beribadah dengan tenang, merajut kerukunan warga, dan mewujudkan kasih Kristus secara nyata di tengah masyarakat.",
     "aboutPoints": [
@@ -11,18 +11,18 @@
       "Persekutuan warga yang guyub melalui persekutuan doa keluarga di lingkungan rumah"
     ],
     "address": {
-      "street": "Jl. Karangpilang Gang Gereja No. 1",
+      "street": "Jl. Ksatria No.36, Karang Pilang, Kec. Karangpilang",
       "city": "Surabaya",
-      "province": "Jawa Timur"
+      "province": "Jawa Timur 60221"
     },
-    "mapsQuery": "GKJW Karangpilang Surabaya",
+    "mapsQuery": "GKJW Karangpilang Jl. Ksatria No.36 Surabaya",
     "contact": {
       "phone": "+62 812-3456-7890",
       "whatsapp": "",
-      "email": "gkjw.karangpilang@gmail.com",
+      "email": "gkjwkarangpilang.sub@gmail.com",
       "instagram": "gkjwkarangpilang",
-      "youtube": "GKJW Karangpilang",
-      "youtubeUrl": ""
+      "youtube": "GKJW Karangpilang Surabaya",
+      "youtubeUrl": "https://www.youtube.com/@GKJWKARANGPILANGSURABAYA"
     },
     "officeHours": "Selasa – Sabtu, 08.00 – 14.00 WIB"
   },
@@ -33,39 +33,60 @@
       "day": "Minggu",
       "times": [
         "07.00",
-        "09.00",
         "17.00"
       ],
-      "note": "Pagi: 07.00 (Bhs. Jawa) & 09.00 (Bhs. Indonesia + Sekolah Minggu). Sore: 17.00 WIB.",
+      "note": "Berbahasa Indonesia. Khusus Minggu ke-2 setiap bulan, ibadah pukul 07.00 berbahasa Jawa.",
       "icon": "church"
     },
     {
       "id": "ibadah-keluarga",
       "title": "Ibadah Keluarga",
-      "day": "Rabu",
+      "day": "Selasa & Kamis",
       "times": [
-        "18.30"
+        "19.00"
       ],
       "note": "Persekutuan doa patembayan di rumah warga secara bergilir per kelompok (kringen).",
       "icon": "family"
     },
     {
-      "id": "ibadah-pemuda",
-      "title": "Persekutuan Pemuda",
-      "day": "Sabtu",
+      "id": "ibadah-kpar",
+      "title": "Ibadah KPAR",
+      "day": "Minggu",
       "times": [
-        "18.00"
+        "07.00"
       ],
-      "note": "Wadah kebersamaan, perenungan firman, dan latihan musik bagi pemuda-remaja.",
+      "note": "Pembinaan anak dan remaja (Balita, Pratama, Madya, Remaja) serentak pukul 07.00 WIB.",
+      "icon": "child"
+    },
+    {
+      "id": "ibadah-kppm",
+      "title": "Ibadah KPPM",
+      "day": "Minggu (Tentatif)",
+      "times": [
+        "10.00"
+      ],
+      "note": "Komisi Pembinaan Pemuda dan Mahasiswa.",
       "icon": "youth"
     },
     {
-      "id": "perjamuan-kudus",
-      "title": "Ibadah Perjamuan Kudus",
-      "day": "Minggu tertentu",
-      "times": [],
-      "note": "Dilayani berkala pada hari raya gerejawi (Jumat Agung, Undhuh-Undhuh, dll).",
-      "icon": "bible"
+      "id": "ibadah-kpay",
+      "title": "Ibadah KPAY",
+      "day": "Minggu (Tentatif)",
+      "times": [
+        "10.00"
+      ],
+      "note": "Komisi Pembinaan Adi Yuswa (Lansia).",
+      "icon": "heart"
+    },
+    {
+      "id": "ibadah-kppw",
+      "title": "Ibadah KPPW",
+      "day": "Minggu (Tentatif)",
+      "times": [
+        "10.00"
+      ],
+      "note": "Komisi Pembinaan Peranan Wanita.",
+      "icon": "people"
     }
   ],
   "announcements": [

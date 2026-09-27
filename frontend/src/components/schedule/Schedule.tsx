@@ -45,7 +45,7 @@ export function Schedule({ schedules }: ScheduleProps) {
                   ))}
                 </ul>
               ) : null}
-              <p className="schedule-card__note">{item.note}</p>
+              {item.note ? <p className="schedule-card__note">{item.note}</p> : null}
             </li>
           ))}
         </ul>
