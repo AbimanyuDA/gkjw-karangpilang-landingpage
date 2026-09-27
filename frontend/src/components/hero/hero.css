@@ -1,0 +1,203 @@
+.hero {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: min(100svh, 920px);
+  color: var(--ivory-50);
+  background: var(--navy-950);
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero__image {
+    animation: hero-settle 2.4s var(--ease-out-expo) both;
+  }
+}
+
+@keyframes hero-settle {
+  from {
+    transform: scale(1.08);
+    opacity: 0.4;
+  }
+}
+
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgb(6 20 42 / 0.94) 0%, rgb(6 20 42 / 0.78) 38%, rgb(6 20 42 / 0.2) 72%, rgb(6 20 42 / 0.05) 100%),
+    linear-gradient(0deg, rgb(6 20 42 / 0.85) 0%, transparent 38%),
+    linear-gradient(180deg, rgb(6 20 42 / 0.7) 0%, transparent 22%);
+}
+
+.hero__content {
+  align-self: center;
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: var(--space-xl);
+}
+
+.hero__greeting {
+  margin-bottom: var(--space-sm);
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-size: var(--text-hero);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-shadow: 0 4px 30px rgb(0 0 0 / 0.35);
+}
+
+.hero__title-accent {
+  background: linear-gradient(180deg, var(--gold-300) 10%, var(--gold-500) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__tagline {
+  max-width: 30ch;
+  margin-top: var(--space-md);
+  font-size: var(--text-lg);
+  line-height: 1.55;
+  color: rgb(253 250 243 / 0.88);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero__content > * {
+    animation: hero-rise 0.9s var(--ease-out-expo) both;
+  }
+
+  .hero__content > :nth-child(2) {
+    animation-delay: 0.08s;
+  }
+
+  .hero__content > :nth-child(3) {
+    animation-delay: 0.16s;
+  }
+
+  .hero__content > :nth-child(4) {
+    animation-delay: 0.24s;
+  }
+}
+
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+}
+
+/* ---------- Quick info bar ---------- */
+.quick-info {
+  position: relative;
+  background: rgb(6 20 42 / 0.82);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--color-line-dark);
+}
+
+.quick-info__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding-block: var(--space-md);
+}
+
+.quick-info__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  flex: 1;
+  margin: 0;
+}
+
+.quick-info__item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding-inline: var(--space-md);
+  border-left: 1px solid var(--color-line-dark);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+
+.quick-info__item:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.quick-info__item strong {
+  display: block;
+  font-weight: 700;
+}
+
+.quick-info__item strong + span {
+  color: rgb(253 250 243 / 0.72);
+  font-size: 0.8rem;
+}
+
+.quick-info__icon {
+  display: grid;
+  flex-shrink: 0;
+  color: var(--gold-400);
+}
+
+@media (max-width: 1080px) {
+  .quick-info__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .quick-info__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-md) 0;
+  }
+
+  .quick-info__item:nth-child(odd) {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .quick-info__cta {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .quick-info__list {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+
+  .quick-info__item {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .hero__scrim {
+    background:
+      linear-gradient(0deg, rgb(6 20 42 / 0.95) 5%, rgb(6 20 42 / 0.55) 60%, rgb(6 20 42 / 0.75) 100%);
+  }
+}

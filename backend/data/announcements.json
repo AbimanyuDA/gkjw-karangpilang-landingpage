@@ -1,0 +1,26 @@
+[
+  {
+    "id": "warta-2026-09-27",
+    "date": "2026-09-27",
+    "title": "Warta Jemaat",
+    "summary": "Informasi pelayanan, jadwal ibadah, berita jemaat, dan pokok doa minggu ini.",
+    "image": "/images/warta/warta-1.jpg",
+    "pdfUrl": null
+  },
+  {
+    "id": "warta-2026-09-20",
+    "date": "2026-09-20",
+    "title": "Warta Jemaat",
+    "summary": "Laporan persembahan, persiapan Perjamuan Kudus, dan kabar keluarga jemaat.",
+    "image": "/images/warta/warta-2.jpg",
+    "pdfUrl": null
+  },
+  {
+    "id": "warta-2026-09-13",
+    "date": "2026-09-13",
+    "title": "Warta Jemaat",
+    "summary": "Jadwal pelayan ibadah, kegiatan komisi, dan pokok doa bersama.",
+    "image": "/images/warta/warta-3.jpg",
+    "pdfUrl": null
+  }
+]

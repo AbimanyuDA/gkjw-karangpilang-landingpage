@@ -1,0 +1,27 @@
+{
+  "name": "GKJW Karangpilang",
+  "fullName": "Greja Kristen Jawi Wetan Jemaat Karangpilang",
+  "greeting": "Sugeng Rawuh",
+  "tagline": "Bertumbuh dalam iman, melayani dalam kasih, dan menjadi berkat bagi sesama.",
+  "about": "GKJW Karangpilang adalah bagian dari persekutuan Greja Kristen Jawi Wetan yang dipanggil untuk hidup dalam kasih, bertumbuh dalam iman, melayani sesama, dan menjadi berkat bagi masyarakat.",
+  "aboutPoints": [
+    "Persekutuan jemaat yang hangat untuk segala usia",
+    "Ibadah Minggu, keluarga, dan pemuda setiap pekan",
+    "Pelayanan kasih bagi jemaat dan masyarakat sekitar"
+  ],
+  "address": {
+    "street": "Karangpilang",
+    "city": "Surabaya",
+    "province": "Jawa Timur"
+  },
+  "mapsQuery": "GKJW Karangpilang Surabaya",
+  "contact": {
+    "phone": "+62 8xx-xxxx-xxxx",
+    "whatsapp": "",
+    "email": "",
+    "instagram": "gkjwkarangpilang",
+    "youtube": "GKJW Karangpilang",
+    "youtubeUrl": ""
+  },
+  "officeHours": "Senin – Jumat, 08.00 – 15.00 WIB"
+}

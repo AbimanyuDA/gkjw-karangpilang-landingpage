@@ -1,0 +1,44 @@
+[
+  {
+    "id": "anak-remaja",
+    "name": "Anak & Remaja",
+    "description": "Pendampingan iman generasi muda lewat sekolah Minggu dan katekisasi.",
+    "image": "/images/pelayanan/anak-remaja.jpg",
+    "icon": "child"
+  },
+  {
+    "id": "pemuda",
+    "name": "Pemuda",
+    "description": "Ruang bertumbuh, bersekutu, dan melayani bersama.",
+    "image": "/images/pelayanan/pemuda.jpg",
+    "icon": "youth"
+  },
+  {
+    "id": "keluarga",
+    "name": "Keluarga",
+    "description": "Pelayanan keluarga dan warga jemaat di setiap kelompok.",
+    "image": "/images/pelayanan/keluarga.jpg",
+    "icon": "family"
+  },
+  {
+    "id": "musik-multimedia",
+    "name": "Musik & Multimedia",
+    "description": "Mendukung pelayanan ibadah dan media digital gereja.",
+    "image": "/images/pelayanan/musik.jpg",
+    "icon": "music"
+  },
+  {
+    "id": "diakonia",
+    "name": "Diakonia",
+    "description": "Pelayanan kasih bagi jemaat dan masyarakat yang membutuhkan.",
+    "image": "/images/pelayanan/diakonia.jpg",
+    "icon": "heart"
+  },
+  {
+    "id": "kesaksian-pelayanan",
+    "name": "Kesaksian & Pelayanan",
+    "description": "Pelayanan keluar dan pemberitaan Injil di tengah masyarakat.",
+    "image": "/images/pelayanan/kesaksian.jpg",
+    "icon": "people"
+  }
+]

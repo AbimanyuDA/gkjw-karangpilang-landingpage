@@ -1,0 +1,181 @@
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  height: var(--header-height);
+  color: var(--ivory-50);
+  border-bottom: 1px solid transparent;
+  transition:
+    background-color var(--duration-normal) ease,
+    border-color var(--duration-normal) ease,
+    backdrop-filter var(--duration-normal) ease;
+}
+
+.site-header.is-solid {
+  background: rgb(6 20 42 / 0.92);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-bottom-color: var(--color-line-dark);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  height: 100%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 46px;
+  height: auto;
+  filter: drop-shadow(0 2px 6px rgb(0 0 0 / 0.35));
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.05;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.brand__text span:last-child {
+  color: var(--gold-300);
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.main-nav a:not(.btn) {
+  position: relative;
+  display: block;
+  padding: 0.55rem 0.7rem;
+  color: rgb(253 250 243 / 0.82);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--duration-fast) ease;
+}
+
+.main-nav a:not(.btn)::after {
+  content: '';
+  position: absolute;
+  left: 0.7rem;
+  right: 0.7rem;
+  bottom: 0.2rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--gold-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-normal) var(--ease-out-expo);
+}
+
+.main-nav a:not(.btn):hover,
+.main-nav a[aria-current='true'] {
+  color: var(--gold-300);
+}
+
+.main-nav a:not(.btn):hover::after,
+.main-nav a[aria-current='true']::after {
+  transform: scaleX(1);
+}
+
+/* Scoped under .main-nav so it wins over the generic .btn display rule. */
+.main-nav .main-nav__cta,
+.menu-toggle {
+  display: none;
+}
+
+.menu-toggle {
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgb(253 250 243 / 0.3);
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+}
+
+@media (max-width: 1080px) {
+  .site-header .site-header__cta {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: grid;
+  }
+
+  /* Anchored to the header (backdrop-filter makes it the containing block anyway). */
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: calc(100dvh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    padding: var(--space-lg) var(--gutter) var(--space-xl);
+    overflow-y: auto;
+    background: var(--navy-950);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+      opacity var(--duration-normal) var(--ease-out-expo),
+      transform var(--duration-normal) var(--ease-out-expo),
+      visibility 0s linear var(--duration-normal);
+  }
+
+  .main-nav.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition-delay: 0s;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .main-nav a:not(.btn) {
+    padding: 0.95rem 0;
+    border-bottom: 1px solid var(--color-line-dark);
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 600;
+  }
+
+  .main-nav a:not(.btn)::after {
+    display: none;
+  }
+
+  .main-nav .main-nav__cta {
+    display: inline-flex;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1240px) {
+  .main-nav a:not(.btn) {
+    padding-inline: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

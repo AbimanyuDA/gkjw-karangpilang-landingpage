@@ -1,0 +1,30 @@
+[
+  {
+    "id": "perjamuan-kudus-2026-10",
+    "date": "2026-10-04",
+    "title": "Ibadah Perjamuan Kudus",
+    "time": "07.00 WIB",
+    "location": "GKJW Karangpilang"
+  },
+  {
+    "id": "persekutuan-pemuda-2026-10",
+    "date": "2026-10-10",
+    "title": "Persekutuan Pemuda",
+    "time": "18.00 WIB",
+    "location": "GKJW Karangpilang"
+  },
+  {
+    "id": "bakti-sosial-2026-10",
+    "date": "2026-10-18",
+    "title": "Bakti Sosial Jemaat",
+    "time": "08.00 WIB",
+    "location": "Karangpilang"
+  },
+  {
+    "id": "retreat-remaja-2026-10",
+    "date": "2026-10-25",
+    "title": "Retreat Remaja",
+    "time": "08.00 WIB",
+    "location": "Lokasi menyusul"
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "site": {
+    "name": "GKJW Karangpilang",
+    "fullName": "Greja Kristen Jawi Wetan Jemaat Karangpilang",
+    "greeting": "Sugeng Rawuh",
+    "tagline": "Bertumbuh dalam iman, melayani dalam kasih, dan menjadi berkat bagi sesama.",
+    "about": "GKJW Karangpilang adalah bagian dari persekutuan Greja Kristen Jawi Wetan yang dipanggil untuk hidup dalam kasih, bertumbuh dalam iman, melayani sesama, dan menjadi berkat bagi masyarakat.",
+    "aboutPoints": [
+      "Persekutuan jemaat yang hangat untuk segala usia",
+      "Ibadah Minggu, keluarga, dan pemuda setiap pekan",
+      "Pelayanan kasih bagi jemaat dan masyarakat sekitar"
+    ],
+    "address": {
+      "street": "Karangpilang",
+      "city": "Surabaya",
+      "province": "Jawa Timur"
+    },
+    "mapsQuery": "GKJW Karangpilang Surabaya",
+    "contact": {
+      "phone": "+62 8xx-xxxx-xxxx",
+      "whatsapp": "",
+      "email": "",
+      "instagram": "gkjwkarangpilang",
+      "youtube": "GKJW Karangpilang",
+      "youtubeUrl": ""
+    },
+    "officeHours": "Senin – Jumat, 08.00 – 15.00 WIB"
+  },
+  "schedules": [
+    {
+      "id": "ibadah-minggu",
+      "title": "Ibadah Minggu",
+      "day": "Minggu",
+      "times": [
+        "07.00",
+        "09.00",
+        "17.00"
+      ],
+      "note": "Ibadah umum untuk seluruh jemaat",
+      "icon": "church"
+    },
+    {
+      "id": "ibadah-keluarga",
+      "title": "Ibadah Keluarga",
+      "day": "Rabu",
+      "times": [
+        "18.00"
+      ],
+      "note": "Bergilir di rumah warga per kelompok",
+      "icon": "family"
+    },
+    {
+      "id": "ibadah-pemuda",
+      "title": "Ibadah Pemuda",
+      "day": "Sabtu",
+      "times": [
+        "18.00"
+      ],
+      "note": "Persekutuan pemuda dan remaja",
+      "icon": "youth"
+    },
+    {
+      "id": "perjamuan-kudus",
+      "title": "Ibadah Perjamuan Kudus",
+      "day": "Minggu tertentu",
+      "times": [],
+      "note": "Jika dijadwalkan — lihat warta jemaat",
+      "icon": "bible"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "warta-2026-09-27",
+      "date": "2026-09-27",
+      "title": "Warta Jemaat",
+      "summary": "Informasi pelayanan, jadwal ibadah, berita jemaat, dan pokok doa minggu ini.",
+      "image": "/images/warta/warta-1.jpg",
+      "pdfUrl": null
+    },
+    {
+      "id": "warta-2026-09-20",
+      "date": "2026-09-20",
+      "title": "Warta Jemaat",
+      "summary": "Laporan persembahan, persiapan Perjamuan Kudus, dan kabar keluarga jemaat.",
+      "image": "/images/warta/warta-2.jpg",
+      "pdfUrl": null
+    },
+    {
+      "id": "warta-2026-09-13",
+      "date": "2026-09-13",
+      "title": "Warta Jemaat",
+      "summary": "Jadwal pelayan ibadah, kegiatan komisi, dan pokok doa bersama.",
+      "image": "/images/warta/warta-3.jpg",
+      "pdfUrl": null
+    }
+  ],
+  "ministries": [
+    {
+      "id": "anak-remaja",
+      "name": "Anak & Remaja",
+      "description": "Pendampingan iman generasi muda lewat sekolah Minggu dan katekisasi.",
+      "image": "/images/pelayanan/anak-remaja.jpg",
+      "icon": "child"
+    },
+    {
+      "id": "pemuda",
+      "name": "Pemuda",
+      "description": "Ruang bertumbuh, bersekutu, dan melayani bersama.",
+      "image": "/images/pelayanan/pemuda.jpg",
+      "icon": "youth"
+    },
+    {
+      "id": "keluarga",
+      "name": "Keluarga",
+      "description": "Pelayanan keluarga dan warga jemaat di setiap kelompok.",
+      "image": "/images/pelayanan/keluarga.jpg",
+      "icon": "family"
+    },
+    {
+      "id": "musik-multimedia",
+      "name": "Musik & Multimedia",
+      "description": "Mendukung pelayanan ibadah dan media digital gereja.",
+      "image": "/images/pelayanan/musik.jpg",
+      "icon": "music"
+    },
+    {
+      "id": "diakonia",
+      "name": "Diakonia",
+      "description": "Pelayanan kasih bagi jemaat dan masyarakat yang membutuhkan.",
+      "image": "/images/pelayanan/diakonia.jpg",
+      "icon": "heart"
+    },
+    {
+      "id": "kesaksian-pelayanan",
+      "name": "Kesaksian & Pelayanan",
+      "description": "Pelayanan keluar dan pemberitaan Injil di tengah masyarakat.",
+      "image": "/images/pelayanan/kesaksian.jpg",
+      "icon": "people"
+    }
+  ],
+  "events": [
+    {
+      "id": "perjamuan-kudus-2026-10",
+      "date": "2026-10-04",
+      "title": "Ibadah Perjamuan Kudus",
+      "time": "07.00 WIB",
+      "location": "GKJW Karangpilang"
+    },
+    {
+      "id": "persekutuan-pemuda-2026-10",
+      "date": "2026-10-10",
+      "title": "Persekutuan Pemuda",
+      "time": "18.00 WIB",
+      "location": "GKJW Karangpilang"
+    },
+    {
+      "id": "bakti-sosial-2026-10",
+      "date": "2026-10-18",
+      "title": "Bakti Sosial Jemaat",
+      "time": "08.00 WIB",
+      "location": "Karangpilang"
+    },
+    {
+      "id": "retreat-remaja-2026-10",
+      "date": "2026-10-25",
+      "title": "Retreat Remaja",
+      "time": "08.00 WIB",
+      "location": "Lokasi menyusul"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "galeri-1",
+      "image": "/images/galeri/galeri-1.jpg",
+      "caption": "Gedung gereja GKJW Karangpilang"
+    },
+    {
+      "id": "galeri-2",
+      "image": "/images/galeri/galeri-2.jpg",
+      "caption": "Ibadah Minggu"
+    },
+    {
+      "id": "galeri-3",
+      "image": "/images/galeri/galeri-3.jpg",
+      "caption": "Paduan suara jemaat"
+    },
+    {
+      "id": "galeri-4",
+      "image": "/images/galeri/galeri-4.jpg",
+      "caption": "Persekutuan pemuda"
+    },
+    {
+      "id": "galeri-5",
+      "image": "/images/galeri/galeri-5.jpg",
+      "caption": "Kegiatan bersama jemaat"
+    },
+    {
+      "id": "galeri-6",
+      "image": "/images/galeri/galeri-6.jpg",
+      "caption": "Pembacaan Alkitab"
+    }
+  ]
+}
