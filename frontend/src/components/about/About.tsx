@@ -46,13 +46,13 @@ export function About({ site }: AboutProps) {
 
         <div className="about__mosaic" data-reveal style={{ '--reveal-index': 1 } as CSSProperties}>
           <figure className="about__photo about__photo--main">
-            <img src="/images/about/ruang-ibadah.webp" alt="Suasana ruang ibadah" width="900" height="700" loading="lazy" />
+            <img src="/images/about/ruang-ibadah.webp" alt="Pendeta dan Majelis Jemaat GKJW Karangpilang di depan mimbar gereja" width="900" height="700" loading="lazy" />
           </figure>
           <figure className="about__photo">
-            <img src="/images/about/pujian.webp" alt="Pelayanan pujian jemaat" width="600" height="420" loading="lazy" />
+            <img src="/images/about/pujian.webp" alt="Persekutuan Pemuda dan Mahasiswa (KPPM) GKJW Karangpilang" width="600" height="420" loading="lazy" />
           </figure>
           <figure className="about__photo">
-            <img src="/images/about/persekutuan.webp" alt="Persekutuan jemaat" width="600" height="420" loading="lazy" />
+            <img src="/images/about/persekutuan.webp" alt="Kebersamaan warga jemaat GKJW Karangpilang dalam ibadah padang" width="600" height="420" loading="lazy" />
           </figure>
           <div className="about__badge" aria-hidden="true">
             <img src="/logo.webp" alt="" width="56" height="51" loading="lazy" />
