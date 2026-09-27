@@ -2,42 +2,42 @@
   {
     "id": "anak-remaja",
     "name": "Anak & Remaja (KPAR)",
-    "description": "Menemani anak-anak bertumbuh lewat Sekolah Minggu ceria, puji-pujian, dan kelas katekisasi remaja.",
+    "description": "Pembinaan iman Sekolah Minggu bagi jenjang Balita, Pratama, Madya, hingga Remaja setiap hari Minggu pukul 07.00 WIB.",
     "image": "/images/pelayanan/anak-remaja.webp",
     "icon": "child"
   },
   {
     "id": "pemuda",
-    "name": "Komisi Pemuda (KP)",
-    "description": "Ruang anak muda Karangpilang belajar firman, berkreasi musik, dan saling mendukung di masa studi maupun kerja.",
+    "name": "Pemuda & Mahasiswa (KPPM)",
+    "description": "Wadah anak muda GKJW Karangpilang untuk berakar dalam firman, saling menguatkan di bangku studi maupun kerja, dan melayani lewat musik.",
     "image": "/images/pelayanan/pemuda.webp",
     "icon": "youth"
   },
   {
     "id": "keluarga",
-    "name": "Persekutuan Warga & Keluarga",
-    "description": "Menganyam kerukunan jemaat dari keluarga muda hingga lansia lewat perkunjungan doa dan persekutuan bapa-ibu.",
+    "name": "Persekutuan Keluarga (Kringen)",
+    "description": "Persekutuan doa patembayan yang bergilir di rumah-rumah warga setiap Selasa dan Kamis malam, merawat kerukunan tetangga dan saling menopang.",
     "image": "/images/pelayanan/keluarga.webp",
     "icon": "family"
   },
   {
     "id": "musik-multimedia",
     "name": "Musik, Pujian & Multimedia",
-    "description": "Mengiringi kebaktian dengan perpaduan musik modern, angklung daerah, tata suara, dan warta digital.",
+    "description": "Pelayanan pemusik kebaktian, paduan suara/kantoria, tata suara gedung ibadah, serta siaran rekaman bagi warga yang berhalangan hadir.",
     "image": "/images/pelayanan/musik.webp",
     "icon": "music"
   },
   {
     "id": "diakonia",
-    "name": "Diakonia & Aksi Kasih",
-    "description": "Menyalurkan tali asih, bantuan beras, santunan duka, serta dukungan bagi warga dan tetangga sekitar yang membutuhkan.",
+    "name": "Diakonia & Pelayanan Kasih",
+    "description": "Penyaluran bantuan beras, santunan kedukaan dan warga sakit, beasiswa pendidikan, serta kepedulian bagi sesama di sekitar Karangpilang.",
     "image": "/images/pelayanan/diakonia.webp",
     "icon": "heart"
   },
   {
     "id": "kesaksian-pelayanan",
-    "name": "Kesaksian & Hubungan Warga",
-    "description": "Menjaga kerukunan antarumat beragama di Karangpilang dan hadir aktif dalam kegiatan sosial kemasyarakatan.",
+    "name": "Kesaksian & Kerukunan Warga",
+    "description": "Menjalin silaturahmi dengan warga dan tokoh masyarakat di Karangpilang untuk memelihara toleransi dan kehidupan bertetangga yang rukun.",
     "image": "/images/pelayanan/kesaksian.webp",
     "icon": "people"
   }

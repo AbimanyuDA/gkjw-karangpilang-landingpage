@@ -43,7 +43,7 @@ function buildRows(site: SiteInfo): ContactRow[] {
       : null,
     whatsapp
       ? { key: 'wa', icon: <WhatsappIcon />, label: 'WhatsApp', value: contact.whatsapp, href: whatsapp }
-      : { key: 'telp', icon: <Phone size={20} aria-hidden="true" />, label: 'Hubungi Kami', value: contact.phone },
+      : { key: 'telp', icon: <Phone size={20} aria-hidden="true" />, label: 'Hubungi Kami', value: contact.phone, href: contact.phone ? `tel:${contact.phone.replace(/[^0-9]/g, '')}` : null },
     contact.email
       ? { key: 'email', icon: <Mail size={20} aria-hidden="true" />, label: 'Email', value: contact.email, href: `mailto:${contact.email}` }
       : null,
@@ -65,7 +65,7 @@ export function Contact({ site }: ContactProps) {
               Sugeng Rawuh ing GKJW Karangpilang
             </h2>
             <p className="contact__lead">
-              Baik Anda yang baru pertama kali beribadah, jemaat yang membutuhkan perkunjungan pastoral, maupun ingin bersilaturahmi, majelis jemaat siap menyambut Anda dengan sukacita.
+              Bila Anda membutuhkan pelayanan pastoral, perkunjungan doa, informasi keanggotaan jemaat, atau baru pertama kali ingin beribadah, majelis dan sekretariat gereja siap menyambut dan membantu Anda.
             </p>
             <a className="btn btn--gold" href={directionsUrl(site.mapsQuery)} target="_blank" rel="noopener noreferrer">
               <Navigation size={18} aria-hidden="true" />

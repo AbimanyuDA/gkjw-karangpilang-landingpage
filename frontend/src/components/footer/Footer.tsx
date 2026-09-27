@@ -70,7 +70,7 @@ export function Footer({ site }: FooterProps) {
         <p>
           © {year} {site.name} · {site.fullName}
         </p>
-        <p>Melayani dalam kasih dan kerukunan di Karangpilang, Surabaya.</p>
+        <p>Melayani dalam iman, kasih, dan kerukunan warga di Karangpilang, Surabaya sejak 1973.</p>
       </div>
     </footer>
   )

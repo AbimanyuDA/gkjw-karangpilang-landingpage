@@ -14,9 +14,9 @@ export function Ministries({ ministries }: MinistriesProps) {
       <div className="container">
         <SectionHeading
           id="pelayanan-title"
-          eyebrow="Pelayanan Gereja"
-          title="Bersama Melayani"
-          lead="Melayani bukan sekadar tugas organisasi, melainkan wujud syukur dan kepedulian bersama. Mari berjalan beriringan dan bertumbuh dalam wadah komisi pelayanan jemaat."
+          eyebrow="Komisi & Pelayanan"
+          title="Wadah Pelayanan Jemaat"
+          lead="Setiap warga jemaat diajak mengambil bagian dalam kehidupan bergereja, mulai dari pembinaan iman anak dan pemuda, pelayanan kasih diakonia, hingga kepedulian warga sekitar."
           action={{ label: 'Tanya tentang pelayanan', href: '#kontak' }}
         />
 

@@ -36,10 +36,10 @@ export function Warta({ announcements }: WartaProps) {
         <div className="warta__intro" data-reveal>
           <p className="eyebrow">Warta Jemaat</p>
           <h2 id="warta-title" className="section-title">
-            Warta & Kabar Jemaat
+            Warta & Kabar Pelayanan
           </h2>
           <p className="warta__lead">
-            Laporan pelayanan sepekan, jadwal pelayan ibadah, serta pokok doa bersama warga yang terbit setiap hari Minggu.
+            Susunan pelayan kebaktian mingguan, laporan persembahan jemaat, serta pokok doa bersama warga yang terbit setiap hari Minggu dalam format cetak dan digital (PDF).
           </p>
         </div>
 

@@ -2,12 +2,13 @@
   "name": "GKJW Karangpilang",
   "fullName": "Greja Kristen Jawi Wetan Jemaat Karangpilang",
   "greeting": "Sugeng Rawuh ing",
-  "tagline": "Gereja keluarga yang guyub dan bersahaja, menyambut setiap jiwa di Karangpilang.",
-  "about": "Berakar dari persekutuan Greja Kristen Jawi Wetan di Surabaya Selatan, jemaat kami tumbuh sebagai keluarga yang saling menguatkan dalam iman. Kami hadir sebagai persekutuan yang teduh, tempat setiap pribadi dan keluarga dapat beribadah dengan tenang, merajut kerukunan warga, dan mewujudkan kasih Kristus secara nyata di tengah masyarakat.",
+  "tagline": "Persekutuan Greja Kristen Jawi Wetan di Surabaya Selatan. Terbuka menyambut siapa saja yang ingin beribadah dan bersekutu di Karangpilang.",
+  "about": "Bermula dari persekutuan doa keluarga pada tahun 1973 yang dirintis bersama jemaat induk GKJW Wiyung, GKJW Karangpilang kini menjadi tempat beribadah bagi ratusan keluarga di Surabaya Selatan dan sekitarnya. Kami merawat tradisi iman Kristen Jawa Wetan yang bersahaja, berakar dalam persaudaraan warga yang guyub, serta terbuka bagi siapa pun yang baru pertama kali hadir.",
   "aboutPoints": [
-    "Ibadah berbahasa Indonesia dan bahasa Jawa yang khidmat dan berakar budaya",
-    "Gedung ibadah ramah anak dan lansia, dilengkapi jalur kursi roda yang nyaman",
-    "Persekutuan warga yang guyub melalui persekutuan doa keluarga di lingkungan rumah"
+    "Kebaktian Minggu menggunakan Bahasa Indonesia, serta ibadah berbahasa Jawa khusus di Minggu ke-2 setiap bulan pukul 07.00 WIB.",
+    "Ibadah keluarga (Kringen) bergilir di rumah warga setiap Selasa dan Kamis pukul 19.00 WIB untuk merawat kerukunan lingkungan.",
+    "Pembinaan iman berjenjang bagi anak dan remaja (KPAR), pemuda mahasiswa (KPPM), peranan wanita (KPPW), hingga lansia (KPAY).",
+    "Gedung ibadah dilengkapi jalur landai kursi roda agar warga sepuh dan jemaat berkebutuhan khusus dapat beribadah dengan nyaman."
   ],
   "address": {
     "street": "Jl. Ksatria No.36, Karang Pilang, Kec. Karangpilang",
@@ -16,12 +17,12 @@
   },
   "mapsQuery": "GKJW Karangpilang Jl. Ksatria No.36 Surabaya",
   "contact": {
-    "phone": "+62 812-3456-7890",
+    "phone": "(031) 7666407",
     "whatsapp": "",
     "email": "gkjwkarangpilang.sub@gmail.com",
     "instagram": "gkjwkarangpilang",
     "youtube": "GKJW Karangpilang Surabaya",
     "youtubeUrl": "https://www.youtube.com/@GKJWKARANGPILANGSURABAYA"
   },
-  "officeHours": "Selasa – Sabtu, 08.00 – 14.00 WIB"
+  "officeHours": "Selasa - Sabtu, pukul 08.00 - 14.00 WIB"
 }

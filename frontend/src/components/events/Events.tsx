@@ -18,8 +18,8 @@ export function Events({ events }: EventsProps) {
         <SectionHeading
           id="kegiatan-title"
           eyebrow="Agenda Terdekat"
-          title="Kegiatan Mendatang"
-          lead="Mari berkumpul dan merajut kebersamaan dalam agenda persekutuan dan kegiatan jemaat mendatang."
+          title="Agenda & Kegiatan Jemaat"
+          lead="Agenda ibadah khusus, persekutuan kategorial, dan kegiatan pelayanan warga sepanjang pekan dan bulan ini."
         />
 
         {upcoming.length === 0 ? (

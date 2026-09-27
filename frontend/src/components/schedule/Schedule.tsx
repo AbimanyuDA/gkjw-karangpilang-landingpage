@@ -16,8 +16,8 @@ export function Schedule({ schedules }: ScheduleProps) {
         <SectionHeading
           id="jadwal-title"
           eyebrow="Jadwal Ibadah"
-          title="Mari Beribadah Bersama"
-          lead="Semua ibadah terbuka untuk jemaat dan tamu. Datang 15 menit lebih awal agar dapat bersekutu dengan tenang."
+          title="Jadwal Kebaktian & Persekutuan"
+          lead="Seluruh ibadah terbuka untuk warga jemaat maupun tamu yang baru pertama kali hadir. Anda disarankan tiba 10 sampai 15 menit lebih awal agar dapat bersekutu dengan tenang."
         />
 
         <ul role="list" className="schedule-grid">
@@ -55,11 +55,11 @@ export function Schedule({ schedules }: ScheduleProps) {
             <HeartHandshake size={28} />
           </div>
           <div className="schedule-visitor__content">
-            <h4 className="schedule-visitor__title">Baru Pertama Kali Hadir di GKJW Karangpilang?</h4>
+            <h4 className="schedule-visitor__title">Baru Pertama Kali Hadir di Sini?</h4>
             <p className="schedule-visitor__text">
-              Kami menyambut Anda dengan sukacita dan kehangatan. Anda dipersilakan mengenakan busana yang rapi, sopan, dan nyaman.
-              Bila Anda membutuhkan panduan tata kebaktian, Alkitab, atau kidung pujian, majelis penyambut jemaat di pintu utama
-              dengan senang hati siap mendampingi Anda dan keluarga.
+              Jangan sungkan untuk datang. Anda cukup mengenakan busana yang rapi, sopan, dan nyaman.
+              Majelis penyambut di pintu utama akan menyapa dan membagikan lembar tata ibadah serta warta jemaat.
+              Bila Anda membawa anak-anak, ibadah Sekolah Minggu (KPAR) dilayankan serentak pada kebaktian pagi pukul 07.00 WIB.
             </p>
           </div>
         </div>

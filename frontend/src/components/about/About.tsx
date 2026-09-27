@@ -20,7 +20,7 @@ export function About({ site }: AboutProps) {
 
           <div className="about__motto" aria-hidden="true">
             <span className="about__motto-quote">“Patembayan Kang Nyawiji”</span>
-            <span className="about__motto-desc">Guyub rukun ndherek Gusti ing Karangpilang</span>
+            <span className="about__motto-desc">Guyub rukun ndherek Gusti · Melayani sejak 1973</span>
           </div>
 
           <p className="section-lead">{site.about}</p>
@@ -39,7 +39,7 @@ export function About({ site }: AboutProps) {
               <ArrowRight size={18} aria-hidden="true" />
             </a>
             <a className="about__link-sub" href="#jadwal">
-              Lihat jadwal ibadah terdekat →
+              Lihat jadwal ibadah →
             </a>
           </div>
         </div>
