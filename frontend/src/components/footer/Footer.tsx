@@ -16,14 +16,6 @@ export function Footer({ site }: FooterProps) {
   return (
     <footer className="site-footer">
       <div className="container site-footer__grid">
-        <div className="site-footer__brand">
-          <img src="/logo.png" alt="" width="72" height="66" loading="lazy" />
-          <div>
-            <p className="site-footer__name">{site.name}</p>
-            <p className="site-footer__tagline">{site.tagline}</p>
-          </div>
-        </div>
-
         <nav aria-label="Navigasi footer">
           <h2 className="site-footer__heading">Navigasi</h2>
           <ul role="list" className="site-footer__links site-footer__links--cols">

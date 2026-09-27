@@ -30,8 +30,8 @@ export function Warta({ announcements }: WartaProps) {
   const items = announcements.slice(0, 3)
 
   return (
-    <section id="warta" className="section section--navy warta" aria-labelledby="warta-title">
-      <img className="warta__bg" src="/images/hero/warta-bg.jpg" alt="" width="1600" height="900" loading="lazy" />
+    <section id="warta" className="section warta" aria-labelledby="warta-title">
+      <img className="warta__bg" src="/images/hero/warta-bg.webp" alt="" width="1600" height="900" loading="lazy" />
       <div className="container warta__inner">
         <div className="warta__intro" data-reveal>
           <p className="eyebrow">Warta Jemaat</p>

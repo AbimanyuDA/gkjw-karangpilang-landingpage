@@ -1,6 +1,8 @@
 import { CalendarDays, Menu, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useActiveSection, useScrolled } from '../../hooks/usePageEffects'
+import { useTheme } from '../../hooks/useTheme'
+import { ThemeToggle } from './ThemeToggle'
 import './header.css'
 import { NAV_ITEMS } from './nav-items'
 
@@ -14,6 +16,7 @@ export function Header({ name }: HeaderProps) {
   const scrolled = useScrolled()
   const active = useActiveSection(SECTION_IDS)
   const [open, setOpen] = useState(false)
+  const { theme, toggleTheme } = useTheme()
 
   useEffect(() => {
     if (!open) return
@@ -34,7 +37,7 @@ export function Header({ name }: HeaderProps) {
     <header className={`site-header${scrolled || open ? ' is-solid' : ''}`}>
       <div className="container site-header__inner">
         <a className="brand" href="#beranda" aria-label={`${name} — kembali ke atas`}>
-          <img src="/logo.png" alt="" width="46" height="42" />
+          <img src="/logo.webp" alt="" width="46" height="42" />
           <span className="brand__text">
             <span>{first}</span>
             <span>{rest.join(' ')}</span>
@@ -60,6 +63,8 @@ export function Header({ name }: HeaderProps) {
             Jadwal Ibadah
           </a>
         </nav>
+
+        <ThemeToggle theme={theme} onToggle={toggleTheme} />
 
         <a className="btn btn--gold btn--sm site-header__cta" href="#jadwal">
           Jadwal Ibadah

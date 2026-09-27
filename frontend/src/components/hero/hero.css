@@ -3,8 +3,8 @@
   display: grid;
   grid-template-rows: 1fr auto;
   min-height: min(100svh, 920px);
-  color: var(--ivory-50);
-  background: var(--navy-950);
+  color: var(--chrome-text);
+  background: var(--hero-bg);
   isolation: isolate;
   overflow: hidden;
 }
@@ -36,10 +36,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background:
-    linear-gradient(90deg, rgb(6 20 42 / 0.94) 0%, rgb(6 20 42 / 0.78) 38%, rgb(6 20 42 / 0.2) 72%, rgb(6 20 42 / 0.05) 100%),
-    linear-gradient(0deg, rgb(6 20 42 / 0.85) 0%, transparent 38%),
-    linear-gradient(180deg, rgb(6 20 42 / 0.7) 0%, transparent 22%);
+  background: var(--hero-scrim);
 }
 
 .hero__content {
@@ -49,6 +46,7 @@
 }
 
 .hero__greeting {
+  color: var(--chrome-accent);
   margin-bottom: var(--space-sm);
 }
 
@@ -61,11 +59,13 @@
   line-height: 0.95;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  text-shadow: 0 4px 30px rgb(0 0 0 / 0.35);
+  text-shadow: var(--hero-title-shadow);
 }
 
 .hero__title-accent {
-  background: linear-gradient(180deg, var(--gold-300) 10%, var(--gold-500) 90%);
+  /* Transparent glyphs let any text-shadow bleed through and wash out the gold. */
+  text-shadow: none;
+  background: var(--hero-title-accent);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -76,7 +76,7 @@
   margin-top: var(--space-md);
   font-size: var(--text-lg);
   line-height: 1.55;
-  color: rgb(253 250 243 / 0.88);
+  color: var(--chrome-text-muted);
 }
 
 .hero__actions {
@@ -114,9 +114,9 @@
 /* ---------- Quick info bar ---------- */
 .quick-info {
   position: relative;
-  background: rgb(6 20 42 / 0.82);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid var(--color-line-dark);
+  background: var(--quick-bg);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--chrome-divider);
 }
 
 .quick-info__inner {
@@ -138,7 +138,7 @@
   align-items: center;
   gap: 0.85rem;
   padding-inline: var(--space-md);
-  border-left: 1px solid var(--color-line-dark);
+  border-left: 1px solid var(--chrome-divider);
   font-size: var(--text-sm);
   line-height: 1.4;
 }
@@ -154,17 +154,22 @@
 }
 
 .quick-info__item strong + span {
-  color: rgb(253 250 243 / 0.72);
+  color: var(--chrome-text-muted);
   font-size: 0.8rem;
 }
 
 .quick-info__icon {
   display: grid;
   flex-shrink: 0;
-  color: var(--gold-400);
+  color: var(--chrome-icon);
 }
 
-@media (max-width: 1080px) {
+/* Below desktop the headline spans the photo, so switch to a full-width vertical scrim. */
+@media (max-width: 1180px) {
+  .hero__scrim {
+    background: var(--hero-scrim-mobile);
+  }
+
   .quick-info__inner {
     flex-direction: column;
     align-items: stretch;
@@ -195,9 +200,17 @@
     padding-left: 0;
     border-left: 0;
   }
+}
 
-  .hero__scrim {
-    background:
-      linear-gradient(0deg, rgb(6 20 42 / 0.95) 5%, rgb(6 20 42 / 0.55) 60%, rgb(6 20 42 / 0.75) 100%);
-  }
+/* Outline button that follows the chrome palette (navy on light, ivory on dark).
+   Doubled class so it beats the base .btn border reset from ui.css, which loads later. */
+.btn.btn--ghost-chrome {
+  border-color: var(--chrome-border);
+  color: var(--chrome-text);
+}
+
+.btn.btn--ghost-chrome:hover {
+  border-color: var(--chrome-accent);
+  background: var(--chrome-hover-bg);
+  color: var(--chrome-accent);
 }

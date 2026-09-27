@@ -31,8 +31,8 @@
   width: 64px;
   height: 72px;
   border-radius: var(--radius-sm);
-  background: linear-gradient(180deg, #fff6df, var(--ivory-200));
-  color: var(--navy-900);
+  background: var(--color-date-bg);
+  color: var(--color-heading);
   box-shadow: inset 0 -3px 0 var(--gold-500);
 }
 
@@ -58,14 +58,14 @@
   font-size: 0.98rem;
   font-weight: 700;
   line-height: 1.3;
-  color: var(--navy-900);
+  color: var(--color-heading);
 }
 
 .event-card__meta {
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  color: var(--ink-500);
+  color: var(--color-text-subtle);
   font-size: 0.8rem;
   line-height: 1.6;
 }
@@ -82,7 +82,7 @@
   padding: var(--space-md);
   border: 1px dashed rgb(181 132 42 / 0.4);
   border-radius: var(--radius-md);
-  color: var(--ink-700);
+  color: var(--color-text-muted);
 }
 
 .events-empty svg {

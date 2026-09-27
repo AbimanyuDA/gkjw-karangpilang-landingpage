@@ -18,17 +18,19 @@ export function Hero({ site, schedules }: HeroProps) {
     <section id="beranda" className="hero" aria-labelledby="hero-title">
       <img
         className="hero__image"
-        src="/images/hero/gereja.jpg"
+        src="/images/hero/gereja.webp"
+        srcSet="/images/hero/gereja-828.webp 828w, /images/hero/gereja.webp 1672w"
+        sizes="100vw"
         alt=""
-        width="1920"
-        height="1080"
+        width="1672"
+        height="941"
         fetchPriority="high"
         loading="eager"
       />
       <div className="hero__scrim" aria-hidden="true" />
 
       <div className="container hero__content">
-        <p className="eyebrow eyebrow--light hero__greeting">{site.greeting}</p>
+        <p className="eyebrow hero__greeting">{site.greeting}</p>
         <h1 id="hero-title" className="hero__title">
           <span>{first}</span>
           <span className="hero__title-accent">{rest.join(' ')}</span>
@@ -39,7 +41,7 @@ export function Hero({ site, schedules }: HeroProps) {
             Lihat Jadwal Ibadah
             <ArrowRight size={18} aria-hidden="true" />
           </a>
-          <a className="btn btn--ghost-light" href="#tentang">
+          <a className="btn btn--ghost-chrome" href="#tentang">
             Tentang Jemaat
           </a>
         </div>
@@ -74,7 +76,7 @@ export function Hero({ site, schedules }: HeroProps) {
             </li>
           </ul>
           <a
-            className="btn btn--ghost-light btn--sm quick-info__cta"
+            className="btn btn--ghost-chrome btn--sm quick-info__cta"
             href={directionsUrl(site.mapsQuery)}
             target="_blank"
             rel="noopener noreferrer"

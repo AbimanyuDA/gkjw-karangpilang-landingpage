@@ -53,7 +53,7 @@
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: var(--navy-900);
+  background: var(--color-strong-bg);
   color: var(--gold-300);
   box-shadow: 0 0 0 4px var(--color-card);
   transform: translateY(-50%);
@@ -69,12 +69,12 @@
   font-family: var(--font-display);
   font-size: var(--text-h3);
   font-weight: 700;
-  color: var(--navy-900);
+  color: var(--color-heading);
 }
 
 .ministry-card__text {
   margin-top: 0.35rem;
-  color: var(--ink-700);
+  color: var(--color-text-muted);
   font-size: var(--text-sm);
   line-height: 1.55;
 }

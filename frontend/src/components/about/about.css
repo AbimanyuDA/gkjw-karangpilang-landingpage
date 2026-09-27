@@ -75,8 +75,11 @@
   width: 86px;
   height: 86px;
   border-radius: 50%;
-  background: var(--navy-900);
-  box-shadow: 0 0 0 6px var(--color-surface-alt), var(--shadow-lift);
+  background: var(--badge-bg);
+  box-shadow:
+    inset 0 0 0 1.5px rgb(217 162 58 / 0.55),
+    0 0 0 6px var(--color-surface-alt),
+    var(--shadow-lift);
   transform: translate(-50%, -50%);
 }
 

@@ -74,7 +74,7 @@
       "date": "2026-09-27",
       "title": "Warta Jemaat",
       "summary": "Informasi pelayanan, jadwal ibadah, berita jemaat, dan pokok doa minggu ini.",
-      "image": "/images/warta/warta-1.jpg",
+      "image": "/images/warta/warta-1.webp",
       "pdfUrl": null
     },
     {
@@ -82,7 +82,7 @@
       "date": "2026-09-20",
       "title": "Warta Jemaat",
       "summary": "Laporan persembahan, persiapan Perjamuan Kudus, dan kabar keluarga jemaat.",
-      "image": "/images/warta/warta-2.jpg",
+      "image": "/images/warta/warta-2.webp",
       "pdfUrl": null
     },
     {
@@ -90,7 +90,7 @@
       "date": "2026-09-13",
       "title": "Warta Jemaat",
       "summary": "Jadwal pelayan ibadah, kegiatan komisi, dan pokok doa bersama.",
-      "image": "/images/warta/warta-3.jpg",
+      "image": "/images/warta/warta-3.webp",
       "pdfUrl": null
     }
   ],
@@ -99,42 +99,42 @@
       "id": "anak-remaja",
       "name": "Anak & Remaja",
       "description": "Pendampingan iman generasi muda lewat sekolah Minggu dan katekisasi.",
-      "image": "/images/pelayanan/anak-remaja.jpg",
+      "image": "/images/pelayanan/anak-remaja.webp",
       "icon": "child"
     },
     {
       "id": "pemuda",
       "name": "Pemuda",
       "description": "Ruang bertumbuh, bersekutu, dan melayani bersama.",
-      "image": "/images/pelayanan/pemuda.jpg",
+      "image": "/images/pelayanan/pemuda.webp",
       "icon": "youth"
     },
     {
       "id": "keluarga",
       "name": "Keluarga",
       "description": "Pelayanan keluarga dan warga jemaat di setiap kelompok.",
-      "image": "/images/pelayanan/keluarga.jpg",
+      "image": "/images/pelayanan/keluarga.webp",
       "icon": "family"
     },
     {
       "id": "musik-multimedia",
       "name": "Musik & Multimedia",
       "description": "Mendukung pelayanan ibadah dan media digital gereja.",
-      "image": "/images/pelayanan/musik.jpg",
+      "image": "/images/pelayanan/musik.webp",
       "icon": "music"
     },
     {
       "id": "diakonia",
       "name": "Diakonia",
       "description": "Pelayanan kasih bagi jemaat dan masyarakat yang membutuhkan.",
-      "image": "/images/pelayanan/diakonia.jpg",
+      "image": "/images/pelayanan/diakonia.webp",
       "icon": "heart"
     },
     {
       "id": "kesaksian-pelayanan",
       "name": "Kesaksian & Pelayanan",
       "description": "Pelayanan keluar dan pemberitaan Injil di tengah masyarakat.",
-      "image": "/images/pelayanan/kesaksian.jpg",
+      "image": "/images/pelayanan/kesaksian.webp",
       "icon": "people"
     }
   ],
@@ -171,32 +171,32 @@
   "gallery": [
     {
       "id": "galeri-1",
-      "image": "/images/galeri/galeri-1.jpg",
+      "image": "/images/galeri/galeri-1.webp",
       "caption": "Gedung gereja GKJW Karangpilang"
     },
     {
       "id": "galeri-2",
-      "image": "/images/galeri/galeri-2.jpg",
+      "image": "/images/galeri/galeri-2.webp",
       "caption": "Ibadah Minggu"
     },
     {
       "id": "galeri-3",
-      "image": "/images/galeri/galeri-3.jpg",
+      "image": "/images/galeri/galeri-3.webp",
       "caption": "Paduan suara jemaat"
     },
     {
       "id": "galeri-4",
-      "image": "/images/galeri/galeri-4.jpg",
+      "image": "/images/galeri/galeri-4.webp",
       "caption": "Persekutuan pemuda"
     },
     {
       "id": "galeri-5",
-      "image": "/images/galeri/galeri-5.jpg",
+      "image": "/images/galeri/galeri-5.webp",
       "caption": "Kegiatan bersama jemaat"
     },
     {
       "id": "galeri-6",
-      "image": "/images/galeri/galeri-6.jpg",
+      "image": "/images/galeri/galeri-6.webp",
       "caption": "Pembacaan Alkitab"
     }
   ]

@@ -1,5 +1,7 @@
 .contact {
   position: relative;
+  background: var(--contact-bg);
+  color: var(--color-text);
   isolation: isolate;
   overflow: hidden;
 }
@@ -17,7 +19,7 @@
 
 .contact__inner {
   display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.9fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr) minmax(0, 1fr);
   align-items: center;
   gap: var(--space-lg);
 }
@@ -36,7 +38,7 @@
 
 .contact__lead {
   margin: var(--space-sm) 0 var(--space-md);
-  color: rgb(253 250 243 / 0.78);
+  color: var(--color-text-muted);
 }
 
 .contact__list {
@@ -55,18 +57,19 @@
 
 .contact__list strong {
   display: block;
+  color: var(--color-heading);
   font-weight: 700;
 }
 
 .contact__list a,
 .contact__list strong + span {
-  color: rgb(253 250 243 / 0.72);
+  color: var(--color-text-muted);
   text-decoration: none;
   transition: color var(--duration-fast) ease;
 }
 
 .contact__list a:hover {
-  color: var(--gold-300);
+  color: var(--color-accent-text);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -78,17 +81,18 @@
   width: 38px;
   height: 38px;
   border-radius: 10px;
-  background: rgb(243 213 138 / 0.1);
-  color: var(--gold-400);
+  background: var(--color-card);
+  color: var(--chrome-icon);
+  box-shadow: inset 0 0 0 1px var(--color-line);
 }
 
 .contact__map {
   overflow: hidden;
   border: 6px solid var(--ivory-50);
   border-radius: var(--radius-lg);
-  box-shadow: 0 30px 60px -24px rgb(0 0 0 / 0.6);
+  box-shadow: var(--shadow-lift);
   aspect-ratio: 4 / 3;
-  background: var(--navy-800);
+  background: var(--color-chip);
 }
 
 .contact__map iframe {

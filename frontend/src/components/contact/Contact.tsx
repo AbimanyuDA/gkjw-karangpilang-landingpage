@@ -55,10 +55,10 @@ export function Contact({ site }: ContactProps) {
   const rows = buildRows(site)
 
   return (
-    <section id="kontak" className="section section--navy contact" aria-labelledby="kontak-title">
+    <section id="kontak" className="section contact" aria-labelledby="kontak-title">
       <div className="container contact__inner">
         <div className="contact__intro" data-reveal>
-          <img className="contact__logo" src="/logo.png" alt={`Lambang ${site.name}`} width="150" height="137" loading="lazy" />
+          <img className="contact__logo" src="/logo.webp" alt={`Lambang ${site.name}`} width="150" height="137" loading="lazy" />
           <div>
             <p className="eyebrow">Kunjungi Kami</p>
             <h2 id="kontak-title" className="section-title">

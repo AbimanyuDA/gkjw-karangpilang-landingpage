@@ -10,6 +10,10 @@ GKJW-LandingPage/
 
 Frontend **tetap tampil walau backend mati**: ia membawa salinan konten (`frontend/src/data/fallback-content.json`) dan menggantinya dengan data API bila `VITE_API_URL` diisi dan API merespons.
 
+## Mode terang & gelap
+
+Website otomatis mengikuti mode terang/gelap perangkat pengunjung. Tombol matahari/bulan di header mengganti mode secara manual; pilihan disimpan di browser pengunjung. Jika pengunjung memilih mode yang sama dengan sistemnya, website kembali mengikuti sistem otomatis. Warna diatur lewat token di `frontend/src/styles/tokens.css` (`:root` = terang, `:root[data-theme='dark']` = gelap).
+
 ## Menjalankan di komputer
 
 ```bash
@@ -45,17 +49,26 @@ cd backend && npm run sync:frontend
 
 ### Mengganti foto
 
-Foto sekarang masih **foto acak (placeholder)**. Ganti file di `frontend/public/images/` dengan **nama file yang sama**:
+Semua foto memakai format **WebP** (maks. beberapa ratus KB) agar website cepat. Foto selain hero masih **placeholder acak**. Ganti file di `frontend/public/images/` dengan **nama file yang sama**:
 
-| Folder | File | Ukuran ideal |
-|--------|------|--------------|
-| `hero/` | `gereja.jpg` (foto utama gedung gereja), `warta-bg.jpg` | 1920×1080 |
-| `about/` | `ruang-ibadah.jpg`, `pujian.jpg`, `persekutuan.jpg` | 900×700 / 600×420 |
-| `warta/` | `warta-1.jpg` … `warta-3.jpg` | 640×400 |
-| `pelayanan/` | `anak-remaja`, `pemuda`, `keluarga`, `musik`, `diakonia`, `kesaksian` (.jpg) | 560×400 |
-| `galeri/` | `galeri-1.jpg` … `galeri-6.jpg` | 720×540 |
+| Folder | File | Lebar ideal |
+|--------|------|-------------|
+| `hero/` | `gereja.webp` + `gereja-828.webp` (versi HP), `warta-bg.webp` | 1672 / 828 px |
+| `about/` | `ruang-ibadah.webp`, `pujian.webp`, `persekutuan.webp` | 900 / 600 px |
+| `warta/` | `warta-1.webp` … `warta-3.webp` | 640 px |
+| `pelayanan/` | `anak-remaja`, `pemuda`, `keluarga`, `musik`, `diakonia`, `kesaksian` (.webp) | 560 px |
+| `galeri/` | `galeri-1.webp` … `galeri-6.webp` | 720 px |
 
-Kompres dulu (mis. di squoosh.app, kualitas ±75%) agar website tetap cepat.
+Konversi dari JPG/PNG (butuh `brew install webp`), atau pakai squoosh.app → WebP kualitas ±75:
+
+```bash
+cwebp -q 76 -resize 720 0 foto-asli.jpg -o frontend/public/images/galeri/galeri-1.webp
+# Hero: dua ukuran
+cwebp -q 78 foto-gereja.png -o frontend/public/images/hero/gereja.webp
+cwebp -q 72 -resize 828 0 foto-gereja.png -o frontend/public/images/hero/gereja-828.webp
+```
+
+`frontend/public/og-image.jpg` adalah gambar pratinjau saat link dibagikan di WhatsApp/Instagram (tetap JPG karena tidak semua aplikasi mendukung WebP).
 
 ### Data yang masih perlu dilengkapi
 
