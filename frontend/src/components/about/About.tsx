@@ -19,7 +19,7 @@ export function About({ site }: AboutProps) {
           <p className="about__full-name">{site.fullName}</p>
 
           <div className="about__motto" aria-hidden="true">
-            <span className="about__motto-quote">“Patembayan Kang Nyawiji”</span>
+            <span className="about__motto-quote">“Pasamuan Kang Nyawiji”</span>
             <span className="about__motto-desc">Guyub rukun ndherek Gusti · Melayani sejak 1973</span>
           </div>
 
